@@ -4,10 +4,7 @@
   "editor.fontSize": 18,
   "editor.lineHeight": 24,
   "editor.formatOnSave": true,
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
   "editor.tabSize": 2,
   "editor.renderLineHighlight": "gutter",
   "terminal.integrated.fontSize": 14,
@@ -23,25 +20,41 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.singleQuote": true,
-  "eslint.autoFixOnSave": true,
   "eslint.validate": [
     "javascript",
     "javascriptreact",
-    {
-      "language": "typescript",
-      "autoFix": true
-    },
-    {
-      "language": "typescriptreact",
-      "autoFix": true
-    }
+    "typescript",
+    "typescriptreact"
   ],
-  "markdown.extension.toc.githubCompatibility": true,
-  "workbench.iconTheme": "material-icon-theme",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "window.zoomLevel": 1,
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "SynthWave '84"
+  "workbench.editor.labelFormat": "short",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.userWords": [],
+  "workbench.colorTheme": "SynthWave '84",
+  "cSpell.language": "en,pt,pt-BR",
+  "explorer.compactFolders": false,
+  "workbench.sideBar.location": "right"
 }

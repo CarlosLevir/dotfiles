@@ -103,6 +103,7 @@ SPACESHIP_PROMPT_ORDER=(
   dir
   host
   git
+  node
   exec_time
   line_sep
   vi_mode
@@ -111,6 +112,7 @@ SPACESHIP_PROMPT_ORDER=(
   char
 )
 
+SPACESHIP_USER_SHOW=never
 SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_CHAR_SYMBOL="❯"
 SPACESHIP_CHAR_SUFFIX=" "
@@ -136,3 +138,5 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias react-native="npx react-native"
