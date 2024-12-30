@@ -7,7 +7,10 @@
   "editor.rulers": [80, 120],
   "editor.tabSize": 2,
   "editor.renderLineHighlight": "gutter",
-  "terminal.integrated.fontSize": 14,
+  "debug.console.fontFamily": "Fira Code",
+  "debug.console.fontSize": 18,
+  "debug.console.lineHeight": 24,
+  "terminal.integrated.fontSize": 18,
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
@@ -33,10 +36,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    "source.fixAll.eslint": "explicit"
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -45,7 +45,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -56,5 +56,6 @@
   "workbench.colorTheme": "SynthWave '84",
   "cSpell.language": "en,pt,pt-BR",
   "explorer.compactFolders": false,
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "git.confirmSync": false
 }
